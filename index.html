@@ -6,16 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Weather Forecast Planner</title>
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.5.1/tailwind.min.css">
   </head>
   <body>
-    <main>
-        <h1>5-Day Weather Forecast</h1>  
-        <nav class="city">
-          <h2 class="cityName">Enter City Name</h2>
-        </nav>
-        <div class="cards">
+    <header class="text-3xl">
+      <h1 class="flex justify-center p-10 bg-gray-300 font-mono ">5-Day Weather Forecast</h1>  
+      <nav class="city flex justify-center bg-blue-200 p-10">
+        <h2 class=" cityName font-mono ">City Name</h2>
+      </nav>
+    </header>
+    <main class="h-screen  h-screen inline">
+        <div class="today bg-gray-300 text-center font-mono h-">Today</div>
 
+        <div class="Forecast flex justify-center border-2 border-black font-mono ">
+          <div class="dayOne bg-blue-200 w-1/5 border-2 border-black p-4 text-center">Date</div>
+          <div class="dayTwo bg-gray-300 w-1/5 border-2 border-black p-4 text-center ">Date</div>
+          <div class="dayThree bg-blue-200 w-1/5 border-2 border-black p-4 text-center ">Date</div>
+          <div class="dayFour bg-gray-300 w-1/5 border-2 border-black  p-4 text-center">Date</div>
+          <div class="dayFive bg-blue-200 w-1/5 border-2 border-black p-4 text-center">Date</div>
         </div>
     </main>
 	<script src="script.js"></script>
