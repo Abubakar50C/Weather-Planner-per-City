@@ -1,6 +1,6 @@
 # Weather-Planner-per-City
 
-I was motivated to start this project by my growing passion to learn about Web API's. I feel like out of all my web developing knowledge that I;ve
+I was motivated to start this project by my growing passion to learn about Web API's. I feel like out of all my web developing knowledge that I've
 gained so far, this is the most crucial knowledge. API's are the first thing we've learned about databases and requests, so I'm intrigued.
 
 I built this project to test my own knowledge of what I've learned about web developing so far. In class and also outside of class.
